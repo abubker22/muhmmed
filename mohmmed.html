@@ -1,0 +1,163 @@
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    
+    <title>Debooz</title>
+</head>
+<body>
+<div id="login">
+		<div id="loginForm">
+		<img src="images/bba4.jpg" alt="" />
+		<div>
+		<label for="un">User Name</label>
+		<input type="text" id="un" name="un" placeholder="User Full Name" oninput="hideError();" />
+		</div>
+		<div>
+		<label for="up">User Password</label>
+		<input type="password" id="up" name="up" placeholder="User Access Key" oninput="hideError();" />
+		</div>
+		<div class="btn1">	
+		<button onclick="login();">Log in</button>	
+		</div>
+		<div id="msg">Wrong Password</div>
+		</div>
+		</div>
+    
+    <section class="header">
+        <nav class="navbar">
+            <h1 id="title">MMHapps<span style="color: rgb(10, 10, 10); font-size: 20px;" > evaluation</span></h1>
+            <div class="nav-links">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+
+                <h1 style="color: black;font-size: 30px; padding: 5px;">MMHapps <span style="color: rgb(244, 6, 236); padding: 5px;">evaluation</span></h1>
+
+                <ul>
+                    
+                    <li><input type="search" placeholder="search"></li>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="home.html">about us</a></li>
+                    <li>
+                     <a href="" class="navbar-link">ContactUs</a>
+                    </li>
+                </ul>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </div>  
+        </nav>
+        <div class="text-box container">
+            <h1>Android <span style="color: aqua;" >Apps</span></h1>
+            <p>Here we will display special applications in devices that support the Android operating system<br><br> voluptatem sint eligendi est dolores veniam.</p>
+            <a href="" class="btn">  <h3>Download Our App</h3>
+                <p>Download App for Android </p>
+                <div class="app-logo">
+                    <img src="images/play-store.png"  alt="" aria-haspopup="tree">
+                    <img src="images/app-store.png" alt="">
+                </div></a>
+        </div>
+    </section>
+    <div class="categories container">
+        <h1>Top Online <span>Apps</span> MMHapps evaluation</h1>
+        <p>Here we will display special applications in devices that support the Android operating system</p>
+        <div class="row">
+                <div class="col">
+                    <img src="images/ePST.png" alt="ePST">
+                    <h2>ePST <span>ePST (electronic Problem-solving Treatment) is a web-based program aimed at reducing symptoms of mood disorders, stress, and anxiety through Problem Solving Therapy which is based on cognitive behavioral therapy. A virtual coach guides the user through a six step program: stating a problem, setting a goal, brainstorming solutions, choosing a solution, making an action plan, and enjoyable activities. The virtual coach provides personalized feedback and interactive activities. ePST records users’ self-assessments in order to track their progress. ePST will cost users $420, which includes six digital sessions guided by a virtual coach.</span></h2>
+                    <button type="submit"><a href="https://onemindpsyberguide.org/apps/" style="text-decoration: none;" >DOWLOND APP</a></button>
+                </div>
+                <div class="col">
+                    <a href="https://onemindpsyberguide.org/apps/this-way-up/"><img src="images/this-way-up.png" title="ios" alt="this-way-up"></a>
+                    <h2>this-way-up<span> is a web-based program that provides information and skills for overcoming anxiety and depression. With clinician-assisted, self-help, and school-based-prevention modules, This Way Up can be used by many different kinds of users who need help to cope with symptoms of depression and anxiety. Based on the principles of Cognitive Behavioral Therapy (CBT), This Way Up may be particularly useful for individuals who do not have affordable or accessible mental health services in their area. Access to This Way Up’s modules will cost users $59.</span></h2>
+                    <button type="submit"><a href="https://onemindpsyberguide.org/apps/" style="text-decoration: none;" >DOWLOND APP</a></button>
+                </div>
+                <div class="col">
+                    <a href="https://onemindpsyberguide.org/apps/joyages/"><img src="images/Joyages-1.png" title="Android & ios" alt="Joyages-1"></a>
+                    <h2>Joyages<span>  is a digital health coach that aims to help users preventatively care for their mental health, deal with daily stressors and build habits.</span></h2>
+                    <button type="submit"><a href="https://onemindpsyberguide.org/apps/" style="text-decoration: none;" >DOWLOND APP</a></button>
+                </div>
+            </div>
+        </div>
+        <div class="row container">
+            <div class="col">
+                <a href="https://onemindpsyberguide.org/apps/moodhacker/"><img src="images/MoodHacker-1.jpg" title="Android " alt="MoodHacker-1"></a>
+                <h2>MoodHacker-1<span> MoodHacker is a platform that aims to help users track, understand, and improve their mood and reduce depression symptoms. </span></h2>
+                <button type="submit"><a href="https://onemindpsyberguide.org/apps/" style="text-decoration: none;" >DOWLOND APP</a></button>
+            </div>
+            <div class="col">
+                <a href="https://onemindpsyberguide.org/apps/imagine-all-better/"><img src="images/ImagineAllBetter_icon.jpg" title="Android & ios" alt="this-way-up"></a>
+                <h2>Imagine<span>All Better aims to help users with a wide range of issues from stress and anxiety, relational issues, or optimizing performance. The app contains interactive audio exercises, lasting 30-40 minutes. This app provides one free session, then requires payment per session or a purchase of unlimited sessions.</span></h2>
+                <button type="submit"><a href="https://onemindpsyberguide.org/apps/" style="text-decoration: none;" >DOWLOND APP</a></button>
+            </div>
+            <div class="col">
+                <a href="https://onemindpsyberguide.org/apps/cognitive-behavioral-therapy-cbt/"><img src="images/CBT.png" title="Android & ios" alt="CBT"></a>
+                <h2>Cognitive Behavioral Therapy-CBT<span>  is an app that is focused on providing psychoeducation to consumers to improve their well-being and to reduce symptoms of anxiety and depression. When users open the app, users can choose from a variety of articles on an area they would like to focus on (e.g., anxiety, depression, separation, loss). Users can choose to “Learn” about a given condition such as Anxiety. Users can also choose to learn about various treatments for a given condition and what they entail, along with various examples and exercises to practice (e.g., Problem Solving Therapy, journaling exercises, creating action plans). Users can pin certain articles they find helpful, and can also take notes within the app. While there are free articles available, users can unlock the Premium version at $1.99 to access additional articles</span></h2>
+                <button type="submit"><a href="https://onemindpsyberguide.org/apps/" style="text-decoration: none;" >DOWLOND APP</a></button>
+            </div>
+            </div>
+        </div>
+        <div class="row container">
+            <div class="col">
+                <a href="https://onemindpsyberguide.org/apps/respiroguide/"><img src="images/respiroguide.jpg" title="Android & ios" alt="respiroguide"></a>
+                <h2>Respiroguide Pro<span>Vital-EQ Respiroguide Pro is an app using wave-based visualization to help users decrease anxiety and stress levels. The home screen displays a breathing visual aid consisting of a wave with a small yellow circle. Upon pressing play, the small yellow circle moves along the wave to indicate when the user should inhale and exhale breaths. It is set up so that the user achieves 4-7 breaths per minute for 3 minutes. The app is not available for free trial and must be purchased to be used.</span></h2>
+                <button type="submit"><a href="https://onemindpsyberguide.org/apps/" style="text-decoration: none;">DOWLOND APP</a></button>
+            </div>
+                <div class="col">
+                <a href="https://onemindpsyberguide.org/apps/my-oasis-anxiety-relief-game/"><img src="images/my_oasis.jpg" title="Android" alt="My Oasis: Anxiety Relief Game"></a>
+                    <h2>My Oasis: Anxiety Relief Game<span>Anxiety Relief Game uses mindfulness to aid users with their stress and anxiety. The user is given a small oasis in which they can populate with animals and power-ups. By tapping the screen in a clicker fashion, My Oasis plays music and unlocks content so they can upgrade their “oasis” and bring in more calming visuals, such as adding a variety of animal life to their virtual space. As the user progresses through the levels, they can acquire a larger oasis, more animals, and power-ups by spending more time tapping and partaking in their relaxation games. My Oasis is a free-to-play game, but also provides users the opportunity to unlock more content quickly by watching advertisements or through in-app purchases.</span></h2>
+                    <button type="submit"><a href="https://onemindpsyberguide.org/apps/" style="text-decoration: none;">DOWLOND APP</a></button>
+                </div>
+                <div class="col">
+                    <a href="https://onemindpsyberguide.org/apps/chill-panda/"><img src="images/chill-panda.png" alt="respiroguide" title="Android & ios"></a>
+                    <h2>Chill Panda<span>Chill Panda aims to help children and their parents understand the physiological reaction to different feelings, and learn some tools to help with emotion regulation and stress-reduction. An initial heart rate is acquired through LED light pulse detection (no external device needed) prior to mood reporting and exercises. Exercises include breathing exercises and creative video games. A panda avatar guides users through the activities.</span></h2>
+                    <button type="submit"><a href="https://onemindpsyberguide.org/apps/" style="text-decoration: none;">DOWLOND APP</a></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-6 footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download App for Android and ios Mobile Phone.</p>
+                    <div class="app-logo">
+                        <img src="images/play-store.png" alt="">
+                        <img src="images/app-store.png" alt="">
+                    </div>
+                </div>
+                <div class="col-6 footer-col-2">
+                    <a class="f-logo">
+                        <h1>MMHapps <span> evaluation</span></h1>
+                    </a>
+                    <p>This website evaluates health and mental health programs that help the user to choose them.....</p>
+                </div>
+                <div class="col-6 footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li> Join us</li>
+                        <li> Blog Post</li>
+                        <li> Feedback</li>
+                        <li> Support us</li>
+                    </ul>
+                </div>
+                <div class="col-6 footer-col-4">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>Youtube</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">copyright-reserved  &copy; &nbsp;محمد السقاف </p>
+            <p class="copyright">made by Abubaker<span>Al-hjjea</span></p>
+        </div>
+    </div>
+</body>
+</html>
